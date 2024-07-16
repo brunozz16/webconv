@@ -14,6 +14,7 @@
     border: 1px solid black;
     outline: 0;
     border-radius: 10px;
+    font: inter 90% cursive;
 }
 .btn_conv:hover{
     background-color:aliceblue ;

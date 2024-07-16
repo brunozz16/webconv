@@ -44,13 +44,16 @@ import ConvenioButton from "./ConvenioButton.vue";
   
 <style scoped>
 .card_conv {
+    
+  background-image: linear-gradient(to right, rgb(255, 238, 0), rgb(192, 16, 154));
+  background-color: #212F3C;
     padding: 10px;
-    background-color: #212F3C;
+    
     color: aliceblue;
     border-radius: 10px;
     border: 1px solid black;
     margin: 15px;
-    font: oblique 90% cursive;
+    font: inter 90% cursive;
 }
 
 .card_conv:hover {

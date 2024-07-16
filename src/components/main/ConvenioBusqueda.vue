@@ -1,7 +1,7 @@
 <template>
     <div class="cont-busqueda">
         <input class="input-busqueda" type="text" id="nombre" name="nombre" placeholder="Buscador">
-        <button class="button-busqueda">BUSCAR</button>
+        <button class="button-busqueda">Buscar</button>
     </div>
 </template>
 
@@ -24,14 +24,22 @@
 .input-busqueda{
     margin-right: 10px;
     width: 50%;
-    font: oblique 90% cursive;
+    font: inter 90% cursive;
     padding: 2px;
 }
 .button-busqueda{
-    background-color: rgb(27, 116, 37);
+    all: unset;
+    background-color: green;
     color: white;
-    border-radius: 10px;
-    padding: 2px 15px 2px 15px;
-    font: oblique 90% cursive;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font: inter 90% cursive;
+    box-shadow: none;
+    background-image: linear-gradient(to right, green, rgb(28, 216, 28));
+}
+.button-busqueda:hover{
+    background-color: black;
+    color: green;
+    background-image: linear-gradient(to right, rgb(134, 134, 134), rgb(255, 255, 255));
 }
 </style>

@@ -74,6 +74,8 @@ import TituloConvenio from "./main/TituloConvenio.vue"
 .conteiner_conv {
     padding: 10px;
     background-color: #17202A;
+    background-color: white;
+    
     color: aliceblue;
     border-radius: 5px;
     border: 1px solid black;
